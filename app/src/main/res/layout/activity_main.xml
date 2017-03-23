@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.frank.tablelayoutexmaple.MainActivity">
+    <!-- android:stretchColumns="*" -->
+    <TableRow>
+        <TextView
+            android:padding="3dip"
+            android:text="140.1.1.1" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="140.1.1.2" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="140.1.1.3" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="3dip"
+            android:text="140.1.2.1" />
+        <TextView
+            android:padding="3dip"
+            android:text="140.1.2.2" />
+        <TextView
+            android:padding="3dip"
+            android:text="140.1.2.3" />
+    </TableRow>
+</TableLayout>
